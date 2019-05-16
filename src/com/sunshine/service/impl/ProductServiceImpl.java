@@ -24,7 +24,6 @@ public class ProductServiceImpl implements ProductService {
 		try {
 			dao.register(user);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -54,7 +53,6 @@ public class ProductServiceImpl implements ProductService {
 		try {
 			address = dao.findAddressByDid(did);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return address;
@@ -65,7 +63,6 @@ public class ProductServiceImpl implements ProductService {
 		try {
 			dao.updateStateByOid(r6_Order);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -85,7 +82,6 @@ public class ProductServiceImpl implements ProductService {
 
 	@Override
 	public List<Object> findProductListByName(String name) throws SQLException {
-		// TODO Auto-generated method stub
 		return dao.findProductListByName(name);
 	}
 

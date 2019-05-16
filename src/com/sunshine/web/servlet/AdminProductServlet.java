@@ -108,7 +108,6 @@ public class AdminProductServlet extends BaseServlet{
     				
     				
     			} catch (Exception e) {
-    				// TODO Auto-generated catch block
     				e.printStackTrace();
     			}
 

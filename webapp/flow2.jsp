@@ -394,7 +394,7 @@
 
 			<!-- 普通导航菜单 -->
 			<ul class="shop_hd_menu_nav">
-				<li class="current_link"><a href=""><span>首页</span></a></li>
+				<li class="current_link"><a href="index.jsp"><span>首页</span></a></li>
 				<li class="link"><a href=""><span>团购</span></a></li>
 				<li class="link"><a href=""><span>品牌</span></a></li>
 				<li class="link"><a href=""><span>优惠卷</span></a></li>

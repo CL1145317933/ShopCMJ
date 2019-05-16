@@ -128,7 +128,6 @@ public class ProductServlet extends BaseServlet{
 	try {
 		list = service.cateProductList(cid);
 	} catch (SQLException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
 	req.setAttribute("cid", cid);
@@ -157,7 +156,7 @@ public class ProductServlet extends BaseServlet{
 		String repassword = req.getParameter("repassword");
 	  String code = req.getParameter("code");
 		String checkcode = (String) session.getAttribute("checkcode_session");
-	  if(code.equals(checkcode)){
+	  if(code.equalsIgnoreCase(checkcode)){
 		  
 		  User user=new User();
 		  BeanUtils.populate(user, map);

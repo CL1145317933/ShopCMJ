@@ -158,14 +158,12 @@ public class PrivilegeServlet extends BaseServlet {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (InvocationTargetException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
 			address.setDid(UUID.randomUUID().toString());
 			service.saveAddress(address);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

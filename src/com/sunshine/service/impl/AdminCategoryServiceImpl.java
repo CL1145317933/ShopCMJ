@@ -13,7 +13,6 @@ private AdminCategoryDao dao=new AdminCategoryDaoImpl();
 
 	@Override
 	public List<Category> list() throws SQLException {
-		// TODO Auto-generated method stub
 		return dao.list();
 	}
 

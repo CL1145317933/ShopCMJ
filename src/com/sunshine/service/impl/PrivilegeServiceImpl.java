@@ -42,7 +42,6 @@ public class PrivilegeServiceImpl implements PrivilegeService {
 		try {
 			dao.saveOrderItem(list);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -53,7 +52,6 @@ public class PrivilegeServiceImpl implements PrivilegeService {
 		try {
 			dao.saveOrder(order);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

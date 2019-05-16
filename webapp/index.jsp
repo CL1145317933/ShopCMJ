@@ -423,7 +423,7 @@
 
 			<!-- 普通导航菜单 -->
 			<ul class="shop_hd_menu_nav">
-				<li class="current_link"><a href=""><span>首页</span></a></li>
+				<li class="current_link"><a href="index.jsp"><span>首页</span></a></li>
 				<li class="link"><a href=""><span>团购</span></a></li>
 				<li class="link"><a href=""><span>品牌</span></a></li>
 				<li class="link"><a href=""><span>优惠卷</span></a></li>
@@ -456,7 +456,7 @@
                           <dl class=""></dl>
                           <dl class="">
                             <dt><a href="http://www.zztuku.com" title="" target="_blank"><img src="images/e2dfe57add8fff66ed0964b1effd39b9.jpg" alt="2011城市主题公园亲子游"></a></dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">2011城市主题公园亲子游</a></h2></dd>
+                            <dd><h2><a href="http://www.zztuku.com" target="_blank">2019城市主题公园亲子游</a></h2></dd>
                           </dl>
                           <dl class="">
                             <dt><a href="http://www.zztuku.com" title="" target="_blank"><img src="images/e50b5d398e3b890f08e14defbc71a94d.jpg" alt="潜入城市周边清幽之地"></a></dt>
@@ -468,7 +468,7 @@
                           </dl>
                           <dl class="">
                             <dt><a href="http://www.zztuku.com" title="" target="_blank"><img src="images/e81345cbc3d8a7e11f9a0e09df68221d.jpg" alt="2011西安世园会攻略"></a></dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">2011西安世园会攻略</a></h2></dd>
+                            <dd><h2><a href="http://www.zztuku.com" target="_blank">2019西安世园会攻略</a></h2></dd>
                           </dl>
                           <dl class="">
                             <dt><a href="http://www.zztuku.com" title="" target="_blank"><img src="images/65662b58848da87812ba371c7ff6c1ad.jpg" alt="五月乐享懒人天堂塞班岛"></a></dt>
@@ -485,7 +485,7 @@
                           </dl>
                           <dl class="">
                             <dt><a href="http://www.zztuku.com" title="" target="_blank"><img src="images/e81345cbc3d8a7e11f9a0e09df68221d.jpg" alt="2011西安世园会攻略"></a></dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">2011西安世园会攻略</a></h2></dd>
+                            <dd><h2><a href="http://www.zztuku.com" target="_blank">2019西安世园会攻略</a></h2></dd>
                           </dl>
                           <dl class="">
                             <dt><a href="http://www.zztuku.com" title="" target="_blank"><img src="images/65662b58848da87812ba371c7ff6c1ad.jpg" alt="五月乐享懒人天堂塞班岛"></a></dt>
@@ -516,16 +516,16 @@
                         <div class="clear"></div>
                         <div class="tabs-panel">
                             <ul class="list-style01">
-                                <li><a title="如何申请开店" href="article-15.html">如何申请开店</a><span>(2011-01-11)</span></li>
-                                <li><a title="商城商品推荐" href="article-14.html">商城商品推荐</a><span>(2011-01-11)</span></li>
-                                <li><a title="如何发货" href="article-13.html">如何发货</a><span>(2011-01-11)</span></li>
-                                <li><a title="查看售出商品" href="article-12.html">查看售出商品</a><span>(2011-01-11)</span></li>
-                                <li><a title="如何管理店铺" href="article-11.html">如何管理店铺</a><span>(2011-01-11)</span></li>
-                                <li><a title="如何申请开店" href="article-15.html">如何申请开店</a><span>(2011-01-11)</span></li>
-                                <li><a title="商城商品推荐" href="article-14.html">商城商品推荐</a><span>(2011-01-11)</span></li>
-                                <li><a title="如何发货" href="article-13.html">如何发货</a><span>(2011-01-11)</span></li>
-                                <li><a title="查看售出商品" href="article-12.html">查看售出商品</a><span>(2011-01-11)</span></li>
-                                <li><a title="如何管理店铺" href="article-11.html">如何管理店铺</a><span>(2011-01-11)</span></li>
+                                <li><a title="如何申请开店" href="article-15.html">如何申请开店</a><span>(2019-01-11)</span></li>
+                                <li><a title="商城商品推荐" href="article-14.html">商城商品推荐</a><span>(2019-01-11)</span></li>
+                                <li><a title="如何发货" href="article-13.html">如何发货</a><span>(2019-01-11)</span></li>
+                                <li><a title="查看售出商品" href="article-12.html">查看售出商品</a><span>(2019-01-11)</span></li>
+                                <li><a title="如何管理店铺" href="article-11.html">如何管理店铺</a><span>(2019-01-11)</span></li>
+                                <li><a title="如何申请开店" href="article-15.html">如何申请开店</a><span>(2019-01-11)</span></li>
+                                <li><a title="商城商品推荐" href="article-14.html">商城商品推荐</a><span>(2019-01-11)</span></li>
+                                <li><a title="如何发货" href="article-13.html">如何发货</a><span>(2019-01-11)</span></li>
+                                <li><a title="查看售出商品" href="article-12.html">查看售出商品</a><span>(2019-01-11)</span></li>
+                                <li><a title="如何管理店铺" href="article-11.html">如何管理店铺</a><span>(2019-01-11)</span></li>
                                 
                                 
                             </ul>
@@ -817,19 +817,19 @@
                         
                         <li class="normal">
                             <i>4</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         <li class="normal">
                             <i>5</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         <li class="normal">
                             <i>6</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         <li class="normal">
                             <i>7</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         
                     </ol>
@@ -1004,15 +1004,15 @@
                         
                         <li class="normal">
                             <i>4</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         <li class="normal">
                             <i>5</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         <li class="normal">
                             <i>6</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         <li class="normal">
                             <i>7</i>
@@ -1191,19 +1191,19 @@
                         
                         <li class="normal">
                             <i>4</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         <li class="normal">
                             <i>5</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         <li class="normal">
                             <i>6</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         <li class="normal">
                             <i>7</i>
-                            <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
+                            <a href="">2019秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
                         </li>
                         
                     </ol>
@@ -1303,7 +1303,7 @@
                 </p>
             </div>
             <div class="shop_footer_copy">
-                <p>Copyright 2004-2013 itcast Inc.,All rights reserved.</p>
+                <p>Copyright 2018-2060 itcast Inc.,All rights reserved.</p>
             </div>
         </div>
 	<!-- Footer End -->

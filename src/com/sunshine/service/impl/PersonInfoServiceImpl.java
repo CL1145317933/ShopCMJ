@@ -14,7 +14,6 @@ private PersonInfoDao dao=new PersonInfoDaoImpl();
 		try {
 			dao.update(user);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

@@ -28,12 +28,13 @@
 			    </ul>
                             <div class="clear"></div>
 			    <div class="search_form">
-			    	<form method="post" action="index.php">
-			    		<div class="search_formstyle">
-			    			<input type="text" class="search_form_text" name="search_content" value="搜索其实很简单！" />
-			    			<input type="submit" class="search_form_sub" name="secrch_submit" value="" title="搜索" />
-			    		</div>
-			    	</form>
+					<form method="post" action="${pageContext.request.contextPath}/productServlet?method=searchProduct">
+						<div class="search_formstyle">
+							<input type="text" id="search_id" onkeyup="searchs($(this).val())" class="search_form_text" name="search_content"/>
+
+							<input type="submit" class="search_form_sub" name="secrch_submit" value="" title="搜索"/>
+						</div>
+					</form>
 			    </div>
                             <div class="clear"></div>
 			    <div class="search_tag">
@@ -391,7 +392,7 @@
 
 			<!-- 普通导航菜单 -->
 			<ul class="shop_hd_menu_nav">
-				<li class="current_link"><a href=""><span>首页</span></a></li>
+				<li class="current_link"><a href="index.jsp"><span>首页</span></a></li>
 				<li class="link"><a href=""><span>团购</span></a></li>
 				<li class="link"><a href=""><span>品牌</span></a></li>
 				<li class="link"><a href=""><span>优惠卷</span></a></li>

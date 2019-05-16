@@ -23,7 +23,6 @@ public class BaseServlet extends HttpServlet {
 			Method method = this.getClass().getMethod(methodName, HttpServletRequest.class,HttpServletResponse.class);
 			method.invoke(this, req,resp);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

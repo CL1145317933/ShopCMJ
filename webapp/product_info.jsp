@@ -28,12 +28,13 @@
 			    </ul>
                             <div class="clear"></div>
 			    <div class="search_form">
-			    	<form method="post" action="index.php">
-			    		<div class="search_formstyle">
-			    			<input type="text" class="search_form_text" name="search_content" value="搜索其实很简单！" />
-			    			<input type="submit" class="search_form_sub" name="secrch_submit" value="" title="搜索" />
-			    		</div>
-			    	</form>
+					<form method="post" action="${pageContext.request.contextPath}/productServlet?method=searchProduct">
+						<div class="search_formstyle">
+							<input type="text" id="search_id" onkeyup="searchs($(this).val())" class="search_form_text" name="search_content"/>
+
+							<input type="submit" class="search_form_sub" name="secrch_submit" value="" title="搜索"/>
+						</div>
+					</form>
 			    </div>
                             <div class="clear"></div>
 			    <div class="search_tag">
