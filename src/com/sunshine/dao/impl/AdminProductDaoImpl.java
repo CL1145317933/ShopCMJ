@@ -12,9 +12,9 @@ import com.sunshine.utils.DataSourceUtils;
 
 public class AdminProductDaoImpl implements AdminProductDao{
 
+	private QueryRunner queryRunner = new QueryRunner(DataSourceUtils.getDataSource());
 	@Override
 	public int save(Product product) throws SQLException {
-		QueryRunner queryRunner=new QueryRunner(DataSourceUtils.getDataSource());
 		String sql="insert into product(pid,pname,pimage,price,succ_count,pdesc,is_hot,pdate,cid,pnumber,pflag) values(?,?,?,?,?,?,?,?,?,?,?)";
 		int i = queryRunner.update(sql,product.getPid(),product.getPname(),product.getPimage(),product.getPrice()
 				,product.getSucc_count(),product.getPdesc(),product.getIs_hot(),
@@ -27,7 +27,6 @@ public class AdminProductDaoImpl implements AdminProductDao{
 
 	@Override
 	public List<Product> list() throws SQLException {
-		QueryRunner queryRunner=new QueryRunner(DataSourceUtils.getDataSource());
 		String sql="select * from product";
 		
 		return queryRunner.query(sql, new BeanListHandler<>(Product.class));
@@ -35,7 +34,6 @@ public class AdminProductDaoImpl implements AdminProductDao{
 
 	@Override
 	public void delete(String[] ids) throws SQLException {
-		QueryRunner queryRunner=new QueryRunner(DataSourceUtils.getDataSource());
 		for (String  id : ids) {
 			
 			String sql="delete from product where pid = ?";

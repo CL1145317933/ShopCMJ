@@ -12,9 +12,9 @@ import com.sunshine.utils.DataSourceUtils;
 
 public class AdminCategoryDaoImpl implements AdminCategoryDao{
 
+	private QueryRunner queryRunner = new QueryRunner(DataSourceUtils.getDataSource());
 	@Override
 	public List<Category> list() throws SQLException {
-		QueryRunner queryRunner=new QueryRunner(DataSourceUtils.getDataSource());
 		String sql="select * from category";
 		List<Category> list = queryRunner.query(sql,new BeanListHandler<>(Category.class));
 		return list;

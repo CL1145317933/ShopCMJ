@@ -7,7 +7,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<title>ShopCMJ-首页</title>
+	<title>电子商城首页</title>
 	<link rel="stylesheet" href="css/base.css" type="text/css" />
 	<link rel="stylesheet" href="css/shop_common.css" type="text/css" />
 	<link rel="stylesheet" href="css/shop_header.css" type="text/css" />
